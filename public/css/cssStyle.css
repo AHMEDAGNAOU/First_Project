@@ -1,0 +1,74 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+nav a {padding: .5rem;}
+
+
+li{
+    list-style-type: none;
+    border: 1px solid;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 5px;
+}
+a :hover{
+    background: rgb(64, 209, 228);
+}
+form {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #0000000f;
+}
+form div {
+    margin: 10px;
+}
+form input {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-family: 'Nunito';
+}
+form label {
+    display: inherit;
+    font-size: .9rem;
+    padding-bottom: 3px;
+    color:#9d9d9d;
+}
+form button {
+    border: 1px solid #feffff;
+    padding: 10px 25px;
+    font-size: 1.1rem;
+    margin: 10px 0;
+    border-radius: 5px;
+    background: rgb(64, 209, 228);
+}
+.form-error{
+    margin: 0;
+    font-size: .8rem;
+    color: red;
+}
+
+.edit-btn{
+    color: rgb(252, 252, 252);
+    font-size: .8rem;
+    border: 1px solid #feffff;
+    padding: 10px 25px;
+    font-size: 1.1rem;
+    margin: 10px 0;
+    border-radius: 7px;
+    background: rgb(17, 148, 35);
+}
+.delete-btn{
+    color: rgb(252, 252, 252);
+    font-size: .8rem;
+    border: 2px solid rgb(201, 19, 19);
+    padding: 10px 18px;
+    font-size: 1.1rem;
+    margin: 10px 0;
+    border-radius: 7px;
+    background: rgb(201, 19, 19);
+}
