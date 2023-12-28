@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>@yield('title')</title>
+        <title>site</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -21,7 +21,7 @@
                 <nav>
                     <a href="{{ route('home.welcome')}}">Home</a>
                     <a href="{{ route('home.store')}}">Store</a>
-                    <a href="{{ route('computres.index')}}">Computers</a>
+                    <a href="{{ route('computeres.index')}}">Computers</a>
                     <a href="{{ route('computres.create')}}">Create</a>
                     <a href="{{ route('home.style')}}">Style</a>
                 </nav>
