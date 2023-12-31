@@ -5,6 +5,7 @@
 <div class="max-w-6xl  mx-auto sm:px-6 lg:px-8">
     <div class="flex justify-center ml-4  items-center">
         <h1  class="ml-4">Create a new Computre </h1>
+        <!-- <h1  class="ml-4">Create a new Computre </h1> -->
     </div>
         <div class="ml-12">
             <form action="{{route('computres.store')}}" method="post">
